@@ -1,0 +1,149 @@
+ /* body{
+
+    margin: auto;
+    margin-left: 15%;
+    
+    background-color: rgb(24, 23, 23);
+  
+  }
+div{
+    
+    height: 80vh;
+    width: 75vw;
+    position: absolute;
+    border: 2px solid hsl(128, 78%, 49%);
+}
+div::before{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+  top: 3%;
+  left: 0;
+  transform: translate(0% -50%);
+  background: hsl(145, 100%, 50%);
+  position: absolute  ;
+  margin-top: 35vh; 
+ 
+  
+}
+div::after{
+    content: "";
+    display: block; 
+    width: 2px;
+    margin-top: 0vh; 
+    height: 100%;
+    top: 0px;
+    left: 50%;
+    background: #00ff80;
+    position: absolute;
+    transform: translate(-50% 0%);
+    rotate: 180deg; 
+  
+  
+}  */
+.Holediv{
+  position: relative;
+  background-color: #FFFFFF;
+  padding: 5px;
+  /* width: 40%; */
+  border: 2px solid black;
+  border-radius: 5px;
+/* height: 200px; */
+}
+.Headdiv{
+  
+/* position: relative; */
+  display: flex;
+  justify-content: center;
+ justify-content: space-between;
+
+}
+.Headdiv p{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.Headdiv img{
+  font-size: 5px;
+}
+
+.leftdiv{
+display: flex;
+justify-content: center;
+justify-content: flex-start;
+padding-top: 10px;
+/* justify-content: space-around; */
+/* text-align: start; */
+}
+.leftdiv h6{
+  margin-right: 10px;
+margin-top: 10px;
+}
+
+.rightdiv{
+padding-top: 10px;
+display: flex;
+justify-content: center;
+/* justify-content: space-around; */
+justify-content: flex-end;
+}
+.secondlastdiv{
+  background-color: rgb(246, 246, 246);
+  /* margin: 20px; */
+  padding-bottom: 50px;
+ display: flex;
+ justify-content: center;
+ justify-content: space-between;
+}
+.secondlastdiv img{
+  margin: 5px;
+  justify-content: center;
+   border-radius: 50%;
+}
+.secondlastdiv p{
+    /* margin-top: 15px;
+    margin-left: 0px;
+    margin-right: 180px; */
+  
+}
+.Fourthdiv{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+.headdiv p{
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.Imgdiv {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+.Imgdiv img{
+  /* padding: 0px 10px; */
+  position: relative;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  /* justify-content:space-between; */
+}
+.Lbutton{
+  /* padding: 10px 50px; */
+  position: relative;
+  margin-top: 20px;
+justify-content: center;
+display: flex;
+
+color: #2f90c4;
+}
+.Lbutton button{
+  position: relative;
+  background-color: #2f90c4;
+  padding: 10px 240px;
+}
